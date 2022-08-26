@@ -1,6 +1,5 @@
 package com.ble.first1.retrofit;
 
-import com.ble.first1.model.Member;
 import com.ble.first1.model.Sos;
 
 import retrofit2.Call;

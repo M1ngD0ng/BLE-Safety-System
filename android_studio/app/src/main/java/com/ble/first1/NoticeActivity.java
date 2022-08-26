@@ -11,6 +11,8 @@ import android.app.Activity;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
@@ -45,6 +47,7 @@ public class NoticeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notice);
+
 
         initializeComponents();
 
@@ -94,6 +97,14 @@ public class NoticeActivity extends AppCompatActivity {
                 Log.d("OK","블루투스 권한이 이미 부여되었습니다.");
             }
         }
+        Button btn=(Button) findViewById(R.id.to_ble);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent=new Intent(NoticeActivity.this, BleActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void initializeComponents() {

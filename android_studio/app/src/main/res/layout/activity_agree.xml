@@ -1,90 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="25dp"
     tools:context=".AgreeActivity">
 
-    <Button
-        android:id="@+id/AgreeBtn"
-        android:layout_width="169dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="212dp"
-        android:layout_marginEnd="24dp"
-        android:text="동의"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/DisagreeBtn"
-        android:layout_width="169dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="22dp"
-        android:text="비동의"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/StaffBtn"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/QRText2"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="85dp"
-        android:layout_marginBottom="27dp"
-        android:text="승객 위치 정보 수집 동의"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/agreeDetail"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
 
-    <TextView
-        android:id="@+id/agreeDetail"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
-        android:background="@drawable/edge"
-        android:padding="20sp"
-        android:text="@string/agree_string"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/QRText2" />
-
-    <androidx.constraintlayout.widget.Group
-        android:id="@+id/group3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <androidx.constraintlayout.widget.Group
-        android:id="@+id/group4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:constraint_referenced_ids="QRText2,agreeDetail" />
-
-    <androidx.constraintlayout.widget.Group
-        android:id="@+id/group5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <androidx.constraintlayout.widget.Group
-        android:id="@+id/group6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <androidx.constraintlayout.widget.Group
-        android:id="@+id/group7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/QRText2"
+            android:layout_width="504dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="50dp"
+            android:minHeight="300dp"
+            android:text="승객 위치 정보 수집 동의"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/agreeDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edge"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:text="@string/agree_string"
+            android:textSize="17sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/DisagreeBtn"
+                android:layout_width="130dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:text="비동의" />
+
+            <Button
+                android:id="@+id/AgreeBtn"
+                android:layout_width="130dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:text="동의" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -2,6 +2,7 @@ package com.ble.first1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -45,14 +46,17 @@ public class JoinActivity extends AppCompatActivity {
             member.setPassword(password);
 
             memberApi.join(member)
-                    .enqueue(new Callback<Member>() {
+                    .enqueue(new Callback<Void>() {
                         @Override
-                        public void onResponse(Call<Member> call, Response<Member> response) {
+                        public void onResponse(Call<Void> call, Response<Void> response) {
                             Toast.makeText(JoinActivity.this, "Save successful!!!", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(JoinActivity.this, NoticeActivity.class);
+                            startActivity(intent);
+                            finish();
                         }
 
                         @Override
-                        public void onFailure(Call<Member> call, Throwable t) {
+                        public void onFailure(Call<Void> call, Throwable t) {
                             Toast.makeText(JoinActivity.this, "Save failed!!!", Toast.LENGTH_SHORT).show();
                             Logger.getLogger(JoinActivity.class.getName()).log(Level.SEVERE, "Error occurred", t);
                         }
