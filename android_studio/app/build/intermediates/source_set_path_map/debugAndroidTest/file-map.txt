@@ -1,0 +1,7 @@
+com.ble.first1.test.app-androidTest-0 C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\build\generated\res\resValues\androidTest\debug
+com.ble.first1.test.app-androidTest-1 C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\build\generated\res\rs\androidTest\debug
+com.ble.first1.test.app-mergeDebugAndroidTestResources-2 C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.ble.first1.test.app-mergeDebugAndroidTestResources-3 C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.ble.first1.test.app-merged_res-4 C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\build\intermediates\merged_res\debugAndroidTest
+com.ble.first1.test.app-androidTest-5 C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\androidTest\res
+com.ble.first1.test.app-androidTestDebug-6 C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\androidTestDebug\res

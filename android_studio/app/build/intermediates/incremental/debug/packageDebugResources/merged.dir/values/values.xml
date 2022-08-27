@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="newline_names">
+        <item>CR+LF</item>
+        <item>LF</item>
+        <item>&lt;none></item>
+    </string-array>
+    <string-array name="newline_values">
+        <item>\u000d\u000a</item>
+        <item>\u000a</item>
+        <item/>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#ff6e40</color>
+    <color name="colorPrimary">#d84315</color>
+    <color name="colorPrimaryDark">#bf360c</color>
+    <color name="colorRecieveText">#00FF00</color>
+    <color name="colorSendText">#82CAFF</color>
+    <color name="colorStatusText">#FFDB58</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#03A9F4</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFF</color>
+    <string name="agree_string">1. 선박 내의 모든 승객 위치 데이터를 저장합니다. \n
+        2. 승객 위치 정보는 3개월 뒤 모두 폐기합니다.
+    </string>
+    <string name="app_name">선박 위험지역 알리미</string>
+    <string name="btn_join">JOIN</string>
+    <string name="btn_login">LOG IN</string>
+    <string name="devices">Bluetooth LE Devices</string>
+    <string name="form_id">ID</string>
+    <string name="form_password">PASSWORD</string>
+    <string name="location_denied_message">As location permission has not been granted, this app cannot scan for Bluetooth LE devices.</string>
+    <string name="location_denied_title">Location permission denied</string>
+    <string name="location_permission_message">This app does not use location information, but scanning for Bluetooth LE devices requires this permission</string>
+    <string name="location_permission_title">Location permission required</string>
+    <string name="notice_string">1. 이용불가 지역에 출입 시 경고 알림이 전송될 수 있습니다. \n
+        2. 승객의 위치 파악을 위해 블루투스를 항시 켜놓으시길 바랍니다. \n
+        3. 응급 상황 발생 시 아래 버튼을 통해 직원에게 연락바랍니다.
+    </string>
+    <string name="pairing_request">PAIRING requested\n-> Perform pairing steps. Connect again</string>
+    <style name="Theme.First1" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.ble.first1.app-main-27:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.ble.first1.app-main-27:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.ble.first1.app-main-27:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ble.first1.app-main-27:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/xml_data_extraction_rules.xml.flat",
+        "source": "com.ble.first1.app-main-27:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/menu_menu_devices.xml.flat",
+        "source": "com.ble.first1.app-main-27:/menu/menu_devices.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/layout_activity_main.xml.flat",
+        "source": "com.ble.first1.app-main-27:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/layout_activity_join.xml.flat",
+        "source": "com.ble.first1.app-main-27:/layout/activity_join.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ble.first1.app-main-27:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/layout_fragment_terminal.xml.flat",
+        "source": "com.ble.first1.app-main-27:/layout/fragment_terminal.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/drawable-hdpi_ic_clear_white_24dp.png.flat",
+        "source": "com.ble.first1.app-main-27:/drawable-hdpi/ic_clear_white_24dp.png"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.ble.first1.app-main-27:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/drawable-hdpi_ic_notification.png.flat",
+        "source": "com.ble.first1.app-main-27:/drawable-hdpi/ic_notification.png"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/drawable_ic_send_white_24dp.xml.flat",
+        "source": "com.ble.first1.app-main-27:/drawable/ic_send_white_24dp.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/layout_device_list_item.xml.flat",
+        "source": "com.ble.first1.app-main-27:/layout/device_list_item.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/layout_activity_notice.xml.flat",
+        "source": "com.ble.first1.app-main-27:/layout/activity_notice.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.ble.first1.app-main-27:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/layout_activity_ble.xml.flat",
+        "source": "com.ble.first1.app-main-27:/layout/activity_ble.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.ble.first1.app-main-27:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/xml_backup_rules.xml.flat",
+        "source": "com.ble.first1.app-main-27:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/menu_menu_terminal.xml.flat",
+        "source": "com.ble.first1.app-main-27:/menu/menu_terminal.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/drawable_ic_delete_white_24dp.xml.flat",
+        "source": "com.ble.first1.app-main-27:/drawable/ic_delete_white_24dp.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.ble.first1.app-main-27:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/drawable_edge.xml.flat",
+        "source": "com.ble.first1.app-main-27:/drawable/edge.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/drawable_ocean.jpg.flat",
+        "source": "com.ble.first1.app-main-27:/drawable/ocean.jpg"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.ble.first1.app-main-27:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.ble.first1.app-main-27:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/xml_network_security_config.xml.flat",
+        "source": "com.ble.first1.app-main-27:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/drawable-xhdpi_ic_notification.png.flat",
+        "source": "com.ble.first1.app-main-27:/drawable-xhdpi/ic_notification.png"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.ble.first1.app-main-27:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/layout_device_list_header.xml.flat",
+        "source": "com.ble.first1.app-main-27:/layout/device_list_header.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/drawable-xhdpi_ic_clear_white_24dp.png.flat",
+        "source": "com.ble.first1.app-main-27:/drawable-xhdpi/ic_clear_white_24dp.png"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/layout_activity_agree.xml.flat",
+        "source": "com.ble.first1.app-main-27:/layout/activity_agree.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.ble.first1.app-main-27:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.ble.first1.app-pngs-20:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.ble.first1.app-merged_res-25:/layout_activity_staff.xml.flat",
+        "source": "com.ble.first1.app-main-27:/layout/activity_staff.xml"
+    }
+]
