@@ -1,0 +1,2 @@
+08-27 00:31:28.484 23116 23137 I TestRunner: started: useAppContext(com.ble.first1.ExampleInstrumentedTest)
+08-27 00:31:28.487 23116 23137 I TestRunner: finished: useAppContext(com.ble.first1.ExampleInstrumentedTest)

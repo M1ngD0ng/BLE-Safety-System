@@ -1,0 +1,290 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ble.first1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:6:5-77
+11-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:6:22-74
+12    <uses-permission
+12-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:7:5-9:58
+13        android:name="android.permission.BLUETOOTH_SCAN"
+13-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:8:9-57
+14        android:usesPermissionFlags="neverForLocation" />
+14-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:9:9-55
+15    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+15-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:10:5-78
+15-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:10:22-75
+16    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+16-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:11:5-76
+16-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:11:22-73
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:12:5-79
+17-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:12:22-76
+18    <uses-permission
+18-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:13:5-15:38
+19        android:name="android.permission.BLUETOOTH"
+19-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:14:9-52
+20        android:maxSdkVersion="30"
+20-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:15:9-35
+21        android:required="false" />
+21-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:12:9-33
+22    <uses-permission
+22-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:16:5-18:38
+23        android:name="android.permission.BLUETOOTH_ADMIN"
+23-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:17:9-58
+24        android:maxSdkVersion="30"
+24-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:18:9-35
+25        android:required="false" />
+25-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:15:9-33
+26
+27    <uses-feature
+27-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:20:5-22:36
+28        android:name="android.hardware.bluetooth"
+28-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:21:9-50
+29        android:required="false" />
+29-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:22:9-33
+30    <uses-feature
+30-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:23:5-25:36
+31        android:name="android.hardware.bluetooth_le"
+31-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:24:9-53
+32        android:required="false" /> <!-- 네트워크 사용위한 퍼미션 -->
+32-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:25:9-33
+33    <uses-permission android:name="android.permission.INTERNET" />
+33-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:26:5-67
+33-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:26:22-64
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 단말 정보 -->
+34-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:27:5-79
+34-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:27:22-76
+35    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+35-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:28:5-75
+35-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:28:22-72
+36    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+36-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:16:5-81
+36-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:16:22-78
+37    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+37-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:17:5-81
+37-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:17:22-78
+38    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+38-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:22:5-65
+38-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:22:22-62
+39    <uses-feature
+39-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:25:5-27:36
+40        android:name="android.hardware.camera"
+40-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:26:9-47
+41        android:required="false" />
+41-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:27:9-33
+42    <uses-feature
+42-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:28:5-30:36
+43        android:name="android.hardware.camera.front"
+43-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:29:9-53
+44        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+44-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:30:9-33
+45    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+46    <uses-feature
+46-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:33:5-35:36
+47        android:name="android.hardware.camera.autofocus"
+47-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:34:9-57
+48        android:required="false" />
+48-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:35:9-33
+49    <uses-feature
+49-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:36:5-38:36
+50        android:name="android.hardware.camera.flash"
+50-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:37:9-53
+51        android:required="false" />
+51-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:38:9-33
+52    <uses-feature
+52-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:39:5-41:36
+53        android:name="android.hardware.screen.landscape"
+53-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:40:9-57
+54        android:required="false" />
+54-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:41:9-33
+55    <uses-feature
+55-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:42:5-44:36
+56        android:name="android.hardware.wifi"
+56-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:43:9-45
+57        android:required="false" />
+57-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:44:9-33
+58
+59    <application
+59-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:30:5-72:19
+60        android:allowBackup="true"
+60-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:31:9-35
+61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+61-->[androidx.core:core:1.8.0] C:\Users\xmcdk\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+62        android:dataExtractionRules="@xml/data_extraction_rules"
+62-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:32:9-65
+63        android:debuggable="true"
+64        android:extractNativeLibs="false"
+65        android:fullBackupContent="@xml/backup_rules"
+65-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:33:9-54
+66        android:hardwareAccelerated="true"
+66-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:34:9-43
+67        android:icon="@mipmap/ic_launcher"
+67-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:35:9-43
+68        android:label="@string/app_name"
+68-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:36:9-41
+69        android:networkSecurityConfig="@xml/network_security_config"
+69-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:37:9-69
+70        android:roundIcon="@mipmap/ic_launcher_round"
+70-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:38:9-54
+71        android:supportsRtl="true"
+71-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:39:9-35
+72        android:testOnly="true"
+73        android:theme="@style/Theme.First1"
+73-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:40:9-44
+74        android:usesCleartextTraffic="true" >
+74-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:41:9-44
+75>
+76        <activity
+76-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:44:9-46:40
+77            android:name="com.ble.first1.BleActivity"
+77-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:45:13-40
+78            android:exported="false" />
+78-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:46:13-37
+79        <activity
+79-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:47:9-49:40
+80            android:name="com.ble.first1.JoinActivity"
+80-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:48:13-41
+81            android:exported="false" />
+81-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:49:13-37
+82        <activity
+82-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:50:9-52:40
+83            android:name="com.ble.first1.NoticeActivity"
+83-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:51:13-43
+84            android:exported="false" />
+84-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:52:13-37
+85        <activity
+85-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:53:9-56:49
+86            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+86-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:54:13-74
+87            android:clearTaskOnLaunch="true"
+87-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:49:13-45
+88            android:screenOrientation="fullSensor"
+88-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:55:13-51
+89            android:stateNotNeeded="true"
+89-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:51:13-42
+90            android:theme="@style/zxing_CaptureTheme"
+90-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:52:13-54
+91            android:windowSoftInputMode="stateAlwaysHidden" />
+91-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\xmcdk\.gradle\caches\transforms-3\ce826d4a5d47c55cbca48a1a1b864d17\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:53:13-60
+92        <activity
+92-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:57:9-59:40
+93            android:name="com.ble.first1.AgreeActivity"
+93-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:58:13-42
+94            android:exported="false" />
+94-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:59:13-37
+95        <activity
+95-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:60:9-62:40
+96            android:name="com.ble.first1.StaffActivity"
+96-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:61:13-42
+97            android:exported="false" />
+97-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:62:13-37
+98        <activity
+98-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:63:9-70:20
+99            android:name="com.ble.first1.MainActivity"
+99-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:64:13-41
+100            android:exported="true" >
+100-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:65:13-36
+101            <intent-filter>
+101-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:66:13-69:29
+102                <action android:name="android.intent.action.MAIN" />
+102-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:67:17-69
+102-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:67:25-66
+103
+104                <category android:name="android.intent.category.LAUNCHER" />
+104-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:68:17-77
+104-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:68:27-74
+105            </intent-filter>
+106        </activity>
+107
+108        <service android:name="com.ble.first1.Serial.SerialService" />
+108-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:71:9-57
+108-->C:\Users\xmcdk\Documents\GitHub\BLE-Safety-System\android_studio\app\src\main\AndroidManifest.xml:71:18-54
+109
+110        <receiver
+110-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:20:9-28:20
+111            android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver"
+111-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:21:13-81
+112            android:exported="false" >
+112-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:22:13-37
+113            <intent-filter>
+113-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:23:13-27:29
+114                <action android:name="android.intent.action.BOOT_COMPLETED" />
+114-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:24:17-79
+114-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:24:25-76
+115                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+115-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:25:17-87
+115-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:25:25-84
+116                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+116-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:26:17-90
+116-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:26:25-87
+117            </intent-filter>
+118        </receiver>
+119
+120        <service
+120-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:30:9-35:38
+121            android:name="org.altbeacon.beacon.service.BeaconService"
+121-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:31:13-70
+122            android:enabled="true"
+122-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:32:13-35
+123            android:exported="false"
+123-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:33:13-37
+124            android:isolatedProcess="false"
+124-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:34:13-44
+125            android:label="beacon" />
+125-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:35:13-35
+126        <service
+126-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:36:9-39:40
+127            android:name="org.altbeacon.beacon.BeaconIntentProcessor"
+127-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:37:13-70
+128            android:enabled="true"
+128-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:38:13-35
+129            android:exported="false" />
+129-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:39:13-37
+130        <service
+130-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:40:9-50:19
+131            android:name="org.altbeacon.beacon.service.ScanJob"
+131-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:41:13-64
+132            android:exported="false"
+132-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:42:13-37
+133            android:permission="android.permission.BIND_JOB_SERVICE" >
+133-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:43:13-69
+134            <meta-data
+134-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:44:13-46:45
+135                android:name="immediateScanJobId"
+135-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:45:17-50
+136                android:value="208352939" />
+136-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:46:17-42
+137            <meta-data
+137-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:47:13-49:45
+138                android:name="periodicScanJobId"
+138-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:48:17-49
+139                android:value="208352940" />
+139-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:49:17-42
+140        </service>
+141        <service
+141-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:51:9-58:19
+142            android:name="org.altbeacon.bluetooth.BluetoothTestJob"
+142-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:52:13-68
+143            android:exported="false"
+143-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:53:13-37
+144            android:permission="android.permission.BIND_JOB_SERVICE" >
+144-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:54:13-69
+145            <meta-data
+145-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:55:13-57:46
+146                android:name="jobId"
+146-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:56:17-37
+147                android:value="1799803768" />
+147-->[org.altbeacon:android-beacon-library:2.19.5-beta9] C:\Users\xmcdk\.gradle\caches\transforms-3\1ec65baf2fb98dc79ea49f18e3fdd5a3\transformed\jetified-android-beacon-library-2.19.5-beta9\AndroidManifest.xml:57:17-43
+148        </service>
+149    </application>
+150
+151</manifest>
