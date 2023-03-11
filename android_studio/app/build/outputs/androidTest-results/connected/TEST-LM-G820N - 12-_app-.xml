@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.ble.first1.ExampleInstrumentedTest" tests="1" failures="0" errors="0" skipped="0" time="1.565" timestamp="2022-08-26T15:31:30" hostname="localhost">
+  <properties>
+    <property name="device" value="LM-G820N - 12" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="useAppContext" classname="com.ble.first1.ExampleInstrumentedTest" time="0.013" />
+</testsuite>
